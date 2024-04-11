@@ -1,0 +1,25 @@
+.App {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 950px;
+}
+
+.bar-menu-item {
+    flex: 0 0 15%;
+}
+
+.bar-menu-card {
+    background: url("/public/long-island.jpg");
+    background-size: 100% 100%;
+    width: 12em;
+    height: 15em;
+    opacity: 0.8;
+}
